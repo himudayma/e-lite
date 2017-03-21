@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<link rel="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+<meta charset="UTF-8">
+  <title>MOOLNIWAS FORM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  
+  <link rel="stylesheet prefetch" href="http://fonts.googleapis.com/css?family=Open+Sans">
+	<link href="css/baapucss.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+  
+</head>
+
+<body>
+		<div class="container" style="padding-top:5px"><a href="index.html"><button class=" previous">Back (पीछे)</button></a></div>
+    	<div class="text-center"><h1>Bonafied</h1></div>
+		<form name="form" method="post" enctype="multipart/form-data" action="mulniwas_form.php" onsubmit="return check_gender()">
+        <div style="font-size:22px;color:black; background-color:white;">
+          	<ul>
+				<li >Name                 : <input type="text" class="login__input name" name="cname" placeholder="Name"/></li>
+				<li >Father Name          : <input type="text" class="login__input name" name="cfname" placeholder="Father Name "/></li>
+				<li >Address              : <input type="text" class="login__input name" name="cadd" placeholder="Address"/></li>
+				<li >Father Address       : <input type="text" class="login__input name" name="cf_add" placeholder="Father Address"/></li>
+				<li >Father Business      : <input type="text" class="login__input name" name="cf_busi" placeholder="Father Business"/></li>
+				<li >Father Business Address: <input type="text" class="login__input name" name="cf_busi_add" placeholder="Father Business Address"/></li>
+				<li >Date of Birth        : <input type="date" class="login__input name" name="c_dob" placeholder="Date of Birth"/></li>
+				<li >Birth Date           : <input type="date" class="login__input name" name="c_date" placeholder="Birth Date"/></li>
+				<li >Class 1-9            : <input type="text" class="login__input name" name="c19name" placeholder="School Name"/><input type="text" class="login__input name" name="c19place" placeholder="Place"/></li>
+				<li >Class 10             : <input type="text" class="login__input name" name="c10name" placeholder="School Name"/><input type="text" class="login__input name" name="c10place" placeholder="Place"/></li>
+				<li >Class 12             : <input type="text" class="login__input name" name="c12name" placeholder="School Name"/><input type="text" class="login__input name" name="c12place" placeholder="Place"/></li>
+				<li >Higher Education     : <input type="text" class="login__input name" name="c_higheduname" placeholder="College Name"/><input type="text" class="login__input name" name="c_higheduplace" placeholder="Place"/></li>
+				<li >Other                : <input type="text" class="login__input name" name="c_othername" placeholder="College Name"/><input type="text" class="login__input name" name="c_otherplace" placeholder="Place"/></li>
+				<li >Real Address         : <input type="text" class="login__input name" name="c_achal" placeholder="Real Address"/></li>
+				<li >Contact               : <input type="text" class="login__input name" name="c_contact" placeholder="Contact"/></li>
+				<li >Do you registered for voting card or not         : <input type="text" class="login__input name" name="c_list" placeholder="yes/no"/></li>
+				<li >From how many years you live in Rajasthan        : <input type="text" class="login__input name" name="c_years" placeholder="years"/></li>
+				<h6>For Womens:</h6>
+				<li >Married            : <input type="text" class="login__input name" name="c_marriage" placeholder="yes/no"/></li>
+				<li >Husband Name                : <input type="text" class="login__input name" name="c_husbandname" placeholder="Husband Name"/></li>
+				<li >Residence    : <input type="text" class="login__input name" name="c_residence" placeholder="Residence"/></li>
+				<li >Marriage Year      : <input type="text" class="login__input name" name="c_mar_year" placeholder="Marriage Year"/></li>
+
+				<li >User Profile Pic      : <input type="file" placeholder="Upload your image" name="c_image"></li>
+				<li >User Signature      : <input type="file" class="login__input name" name="c_sign" /></li>
+
+				<h6>User Verification Process</h6>
+				
+				<li > <p>Attach previous domicile certifiacte of any family member </p>      : <input type="file" class="login__input name" name="c1_verify" /></li>
+
+				<li >	<p>10 Year proof of the permanent address</p>      : <input type="file" class="login__input name" name="c2_verify" /></li>
+
+				<li ><p>Rent-Agreement proof of 10 years or more</p>      : <input type="file" class="login__input name" name="c3_verify" /></li>
+
+
+			</ul>
+            </div>
+            <ul style="background-color:white;float:center;color:black;">
+            <li style="width:200px;">
+				<button name="submit" value="submit"  type="submit" class="login__submit">Submit</button>
+            </li>
+            </ul>
+		</form>
+    
+</body>
+</html>
